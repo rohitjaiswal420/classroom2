@@ -1,0 +1,53 @@
+.teacher
+{
+    display: flex;
+    height: 100vh;
+    
+}
+
+
+.teacher-left
+{
+     position: sticky;
+     top: 0;
+     left:0;
+     text-align: center;
+     width: 15%;
+     background-color: black;
+}
+
+.teacher-right
+{
+    /* border: 0.1px solid black; */
+    width: 85%;
+}
+
+.teacher-right-top
+{
+    height: 60px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teacher-box
+{
+    /* border: 0.1px solid black; */
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    overflow-y: auto;
+    
+}
+
+.heading
+{
+    font-weight: 600;
+}

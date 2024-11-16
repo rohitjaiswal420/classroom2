@@ -1,0 +1,48 @@
+.student
+{
+    display: flex;
+    height: 100vh;
+    
+}
+
+
+.student-left
+{
+     position: sticky;
+     top: 0;
+     left:0;
+     text-align: center;
+     width: 15%;
+     background-color: black;
+}
+
+.student-right
+{
+    /* border: 0.1px solid black; */
+    width: 85%;
+}
+
+.student-right-top
+{
+    height: 60px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.student-box
+{
+    /* border: 0.1px solid black; */
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    overflow-y: auto;
+    
+}
